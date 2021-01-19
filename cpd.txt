@@ -18,10 +18,11 @@ Some youtube channels to look over
 Inspiring words from Quincy Larson
 
 How did I use this in practice?
-
-
+Setup GitHub to connect to my 
+Forked repo
+Make changes etc. any update on-line repo
 
 
 What did I find hard?
 
-I didn't quiet understand how the internet worked ....
+On this lesson all was ok.
