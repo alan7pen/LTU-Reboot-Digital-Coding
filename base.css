@@ -1,0 +1,22 @@
+
+
+body {
+    background-color: grey;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-decoration: underline;
+    font-size: 16pt;
+}
+h2 {
+    font-size: 14pt;
+}
+b {
+    background-color: blue;
+}
+
+p {
+    font-size: 12pt;
+}
