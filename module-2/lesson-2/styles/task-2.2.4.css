@@ -1,3 +1,27 @@
 /* Your code goes below here */
 
+p em {
+    font-size: 28px;
+    background-color: lightskyblue;
+}
+
+p strong {
+    font-size: 32px;
+    background-color: pink;
+}
+
+ul em {
+    background-color: darkblue;
+    color: yellow;
+}
+
+ul li strong {
+    background: darkred;
+    color: white;
+}
+
+ul strong{
+   color: yellow;
+}
+
 /* Your code goes above here */
