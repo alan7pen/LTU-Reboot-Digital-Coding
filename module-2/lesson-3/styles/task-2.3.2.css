@@ -1,0 +1,20 @@
+span {
+    background: green; color: yellow;
+  }
+
+
+  #example-span {
+      background: black;
+      color: white;
+  }
+
+  .span-class 
+  {
+      background: blue;
+      color: yellow;
+  }
+
+
+  mark {
+      background: red;
+color: blue}
