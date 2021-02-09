@@ -41,3 +41,12 @@ p {
     font-weight: 700;
     width: 140px;
 }
+
+#example20210209 {
+   // max-width: 200px;
+}
+
+.example20210209caption {
+    color: red;
+    background-color: black;
+}
