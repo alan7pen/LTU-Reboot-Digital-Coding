@@ -1,0 +1,62 @@
+img {
+  max-width: 200px;
+  margin: 30px;
+  margin-left: 0px;
+}
+
+.logo {
+  float: left;
+}
+.logo img {
+  max-width: 150px;
+}
+nav {
+  float: right;
+}
+
+.clearfix {
+  clear:both
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 15px 10px;
+}
+
+main {
+  float: left;
+  width: calc(66.6666% - 60px);
+  padding: 30px;
+}
+
+aside {
+  float: left;
+  width: calc(33.3333% - 60px);
+  padding: 30px;
+}
+
+footer {
+  text-align:center;
+}
+//////////////////// demo
+
+.float {
+  float: left;
+  //margin-left: 40px;
+}
+
+.floatr {
+  float: right;
+  //margin-right: 40px;
+
+}
+
+.red, .yellow,.blue {
+  width: 250px;
+  height: 250px;
+}
+
+.red {background-color: red; xheight: 100px;}
+.yellow {background-color: yellow;}
+.blue {background-color: blue;}
+.clearflow {clear:both}
