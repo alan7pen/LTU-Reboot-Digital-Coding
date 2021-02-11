@@ -1,3 +1,7 @@
-var area = 5;
+var sheetWidth = 640;
+var sheetHeight = 720;
+var sheetArea = sheetWidth * sheetHeight;
 
-document.write(area);
+console.log('Width (mm)=', sheetWidth);
+console.log('Height (mm)=', sheetHeight)
+console.log('Sheet Area (mm) = ' + sheetArea);
