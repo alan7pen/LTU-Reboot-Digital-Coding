@@ -50,3 +50,8 @@ p {
     color: red;
     background-color: black;
 }
+
+code {
+    color: blue;
+    background-color: lightyellow;
+}
