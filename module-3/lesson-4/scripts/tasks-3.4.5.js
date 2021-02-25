@@ -19,7 +19,12 @@ let myRecipe = {
     'Sprinkle some pepper over it',
     'Crack on and get your laughing tackle round it !!!'
   ],
-  letsCook: function() {
+
+  letsCook: function () {
+    console.log('Im hungry, lets cook' + this.recipeTitle);
+  },
+
+  fullInstructions: function() {
     
     console.log(`Recipe for: ${this.recipeTitle}`);
     console.log(`Serves: ${this.servings} ${(this.servings == 1)?'person':'people'}`);
@@ -39,3 +44,5 @@ let myRecipe = {
 }
 
 myRecipe.letsCook();
+
+myRecipe.fullInstructions();
