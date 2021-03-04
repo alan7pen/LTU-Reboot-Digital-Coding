@@ -595,7 +595,7 @@
     <p>Also decided to see if could use the ternary operator in the template string.  Got it working.</p>
   </blockquote>
 
-  -->
+  
   <h2>25 FEB 2021</h2>
   <blockquote>
     <p>3.5 - Javascript Looping through an array/object</p>
@@ -628,6 +628,119 @@
   <h4>What did I find hard?</h4>
   <blockquote>
     <p>No problems as lesson at clear pace</p>
+  </blockquote>
+-->
+
+<h2>02 MAR 2021</h2>
+  <blockquote>
+    <p>3.6. JavaScript Document Object model (DOM)</p>
+  </blockquote>
+
+  <h4>What have I learnt?</h4>
+  <blockquote>
+    <p><strong>#prefix</strong> ID for single element</p>
+    <p><strog>.prefix</strong> Class for lots of elements</p>
+    
+        
+    <p>Browser will load the content</p>
+    <p>Accessing DOM nodes</p>
+    
+    
+    <code>
+    document.getElementById(id);
+    &lt;img id="cakePic" src="./img/cake.png" alt="cake" /&gt;
+    var imgCake = document.getElementById('calePic');
+    </code>
+    
+    Returns a single element
+    
+    <code>
+    document.getElementsByTagName(tagName);
+    </code>
+    Returns a list of elements
+    
+    Can specify paragraph 3 using (zero based index)
+    <code>
+    document.getElementsByTagName('p')[2];
+    </code>
+    
+    <code>
+    document.getElementsByClassName(className);
+    document.querySelector(cssQuery);
+    document.querySelectorAll(cssQuery);
+    
+    cssQuery = '.class'
+    cssQuery = '#id'
+    </code>
+    
+    
+    <p>Changing DOM nodes</p>
+    
+    <p>Changing attributes of node</p>
+    
+    <p>Chang picture shown</p>
+    <code>
+    var imgCake = document.getElementById('calePic');
+    imgCake.src = './img/new_cake.png';
+    </code>
+    
+    <p>Getting/setting attributes</p>
+    <code>
+    imgCake.getAttribute('src');
+    imgCake.setAttribute('src', './img/new_cake.png');
+    </code>
+    
+    <p>Changing styles</p>
+    <code>
+    body {
+      background-color: red;
+      padding-top: 10px;
+    }
+    car pageBody = document.getElementsByTagName('body')[0];
+    pageBody.style.backgroundColor = 'red';
+    pageBody.style.paddingTop = '10px';
+    </code>
+    
+    <p>In CSS uses hypen, replaced with camel case</p>
+    
+    
+    <code>
+    document.createElement(tagName);
+    document.createTextNode(text);
+    element.appendChild(element);
+    </code>
+
+    
+    <h3>Events</h3>
+    
+    <p>An event is an object that is sent whne acitons take place on your webpage</p>
+    <code>
+    element.addEventListener('click', function(event) { code });
+    </code>
+    
+    <ul>
+      <li><strong>click</strong> - When user clicks</li>
+      <li><strong>mouseover</strong> - When mouse is moved over</li>
+      <li><strong>mouseout</strong> - When mouse moves away</li>
+      <li><strong>keyup</strong> - </li>
+      <li><strong>load</strong> - </li>
+      <li><strong>focus</strong> - </li>
+      <li><strong>blur</strong> - </li>
+    </ul> 
+    
+    <h3>Forms</h3>
+    <p>input/text/radio</p>
+  </blockquote>
+
+
+  <h4>How did I use this in practice?</h4>
+  <blockquote>
+    <p>Worked through practical examples</p>
+  </blockquote>
+
+  <h4>What did I find hard?</h4>
+  <blockquote>
+    <p>Avoiding typo's with the examples</p>
   </blockquote>
 
 <!--
