@@ -1,5 +1,5 @@
 body {
-  background-color: #f1f1f1;
+  background-color: salmon;
   padding: 20px;
 }
 
@@ -45,6 +45,7 @@ div.images {
 img {
   width: 100%;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-radius: 10%;
 }
 
 .active {
@@ -53,3 +54,37 @@ img {
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   outline: none;
 }
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: lightyellow;
+  }
+
+ 
+  h1 {
+    font-size: 45px;
+  }
+  
+  button {
+    font-size: 16px;
+    height: 48px;
+    width: 200px;
+    background-color: lightblue;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  button {
+    font-size: 14px;
+    height: 48px;
+    width: 160px;
+    background-color: lightyellow;
+  }
+}
+
+
