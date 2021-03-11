@@ -1,15 +1,20 @@
 function updateQuote() {
 
+  method = 2;
   // RANDOM
-  var quote = parseInt(Math.random(1) * quotes.length)
-
-  //quote = quote + 1;
+  if (method === 1) {
+    quote = quote + 1;
+  } else {
+    quote = parseInt(Math.random(1) * quotes.length)
+  }
+  
   if ((quote >= quotes.length) | (quote < 0)) {
     quote = 0;
   }
 
   document.getElementById("quote_text").innerHTML = quotes[quote][0];
   document.getElementById("quote_person").innerHTML = quotes[quote][1];
+  document.getElementById("quote_id").innerHTML = quote;
   //document.getElementById("quote_ref").innerHTML = quote;
 
   setTimeout(updateQuote, 90000);
@@ -106,4 +111,8 @@ var quotes =
   ["The pessimist sees difficulty in every opportunity. The optimist see opportunity in every difficulty", "Winston Churchill"],
   ["Perseverance is failing 19 times and succeeding the 20th.", "Julie Andrews"],
   ["Do the difficult things while they are easy and do the great things while they are small. A journey of a thousand miles must begin with a single step.", "Lao Tzu"],
+  ["Failure is always an option.", "Adam Savage"],
+  ["Every failure is a step to success.", "William Whewell"],
+  ["It's sort of a mental attitude about critical thinking and curiosity. It's about mindset of looking at the world in a playful and curious and creative way.", "Adam Savage"],
+  ["I've learned over decades of building that a deadline is a potent tool for problem-solving.", "Adam Savage"],
 ]
